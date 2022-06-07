@@ -1,0 +1,30 @@
+OOp concepts are the main ideas behind Java's oop style
+
+these are class, object, abstraction, encapsulation, inheritance,
+and polymorphism
+
+A class is an entity that determines how an object will behave
+and what the object will contain
+
+an object is a self contained component which consist of
+methods and properties to make a particular type of data useful
+
+
+Encapsulation means to hide ur data in order to make it
+safe from any kind of modification
+this can be achieved through:
+ - declaring variables as private
+ - setters and getters
+
+
+Inheritance let us create new classes that share some of the attributes with
+existing classes
+
+polymorphism
+let us use the same word to mean different things in different contexts
+example: method overloading and method overriding
+
+abstraction means using simple things to represent complexity
+It is the process of hiding the implementation details  from the user
+and only the functionality will be provided to the user
+achieved via abstract classes and interfaces
