@@ -28,3 +28,43 @@ abstraction means using simple things to represent complexity
 It is the process of hiding the implementation details  from the user
 and only the functionality will be provided to the user
 achieved via abstract classes and interfaces
+
+abstract classes contain abstract keyword in their declaration
+- may or may npt contain abstract methods
+-if a class has atlest one abstract method, then the class must be declared abstract
+- an abstract declared class can not be instantiated with the NEW operator
+- to use an abstract class u have to inherit it from another class, provide implementation to the abstract
+classes in it
+-
+
+Abstract methods can be used if u want a class to contain a particula method
+but u want the actual implementation to be determined by the
+child classes
+- contain method signature but no method bod
+
+
+Interfaces:
+an interface is a blueprint of class. it has static constats
+and abstract methods
+- represents is-a relationship
+- can not be instantiated
+- we can hv private methods, static and default ..
+- interfaces are just abstract methods with only unimplemented
+methofs and when implemented, they have to be either
+default or static
+
+why interfaces
+- achieve abstraction
+- support multiple inheritance
+- used to achieve loose coupling
+
+Encapsulation vs data abstraction
+- encapsulation is data hiding while abstraction is detail hiding
+-
+
+Polymorphism
+- compile time (static/early binding) : method overloading
+- run time (dynamic/late binding): method overriding
+
+
+Object composition
