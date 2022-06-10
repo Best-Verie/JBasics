@@ -31,7 +31,7 @@ achieved via abstract classes and interfaces
 
 abstract classes contain abstract keyword in their declaration
 - may or may npt contain abstract methods
--if a class has atlest one abstract method, then the class must be declared abstract
+-if a class has at least one abstract method, then the class must be declared abstract
 - an abstract declared class can not be instantiated with the NEW operator
 - to use an abstract class u have to inherit it from another class, provide implementation to the abstract
 classes in it
@@ -50,7 +50,7 @@ and abstract methods
 - can not be instantiated
 - we can hv private methods, static and default ..
 - interfaces are just abstract methods with only unimplemented
-methofs and when implemented, they have to be either
+methods and when implemented, they have to be either
 default or static
 
 why interfaces
@@ -68,3 +68,16 @@ Polymorphism
 
 
 Object composition
+
+composition represent a has a or is-part of relationship
+
+inheritance vs composition :
+has a and is a
+
+- we use supper in inheritance to access every accessible method, property of the parent class
+
+
+Best practices for OOP concepts
+- DRY
+- Single Responsibility {class should only have single functionality}
+- Open closed design {make classes and methods closed for modification but open for extension}
