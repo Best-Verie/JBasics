@@ -1,0 +1,13 @@
+JDBC drivers
+-> JDBC - ODBC bridge driver
+-> native-API - driver
+-> Network protocol driver
+-> Thin driver
+
+steps:
+
+1. Register the driver class
+2. Create a connection
+3. Create a statement
+4. Execute a query
+5. Close the connection

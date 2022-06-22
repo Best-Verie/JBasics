@@ -1,0 +1,39 @@
+Java IOC and Dependency injection
+
+Inversion of control mean that the application is responsible for creating the objects that are used by the application.
+To enable this, frameworks use abstractions with additional behaviour built in. if we want to add our own behaviour , we need to extend the classes of the framework.
+you can achieve inversion of control through dependency injection,
+factory, pattern, and constructor injection.
+
+Inversion of Control (IoC) is a design principle that allows classes to be loosely coupled and, therefore, easier to test and maintain
+It means transfering the control of objects and their dependencies from the main program to the container.
+
+DI is one of the implementations od IOC
+
+
+Di is a technique that allows objects to be separated from objects they depend on
+
+@Autowired annotation is used to inject dependencies into the constructor of the class
+Wiring allows the Spring container to automatically resolve dependencies between collaborating beans by inspecting the beans that have been defined
+
+@Bean annotation tells that a method produces a bean to be managed by  the Spring container
+
+Hibernate framework
+-> simplifies the development of applications that use relational databases
+-> open source, lightweight, ORM (object relational mapper) tool
+-> implements the specifications of JPA for data persistence
+
+Advantages of Hibernate
+-> easy to use
+-> open source
+-> light weight
+-> fast performance
+-> database independent query
+-> Automatic table creation
+
+
+MVC in java
+-> Model View Controller
+model -> object that contains the data
+view -> interface that displays the data
+controller -> object that handles the user interaction
